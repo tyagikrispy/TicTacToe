@@ -131,10 +131,6 @@ bool functionThree()
 
 int main()
 {
-#ifndef ONLINE_JUDGE
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
-#endif
     cout << "Enter the name of first player [x]" << endl;
     getline(cin, n1);
     cout << "Enter the name of second player [0]" << endl;
